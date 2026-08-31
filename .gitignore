@@ -1,0 +1,43 @@
+# Entorno virtual y dependencias de Python / uv
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Herramientas y caché de Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Archivos del sistema operativo (macOS / Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuración de editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de datos del proyecto (libros y resultados generados)
+# Preserva la estructura de carpetas ignorando archivos procesados y salida
+*.epub
+*.mobi
+*.azw3
+*.pdf
+
+entrada/*
+!entrada/procesados/
+!entrada/.gitkeep
+entrada/procesados/*
+!entrada/procesados/.gitkeep
+salida/*
+!salida/.gitkeep
